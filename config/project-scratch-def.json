@@ -1,0 +1,13 @@
+{
+  "orgName": "Salesforce Mobile Demo",
+  "edition": "Developer",
+  "features": ["EinsteinAssistant"],
+  "settings": {
+    "mobileSettings": {
+      "enableLightningOnMobile": true
+    },
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true
+    }    
+  } 
+}
