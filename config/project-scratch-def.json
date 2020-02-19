@@ -2,7 +2,7 @@
   "orgName": "Salesforce Mobile Demo",
   "edition": "Developer",
   "hasSampleData": true,
-  "features": ["EinsteinAssistant"],
+  "features": [],
   "settings": {
     "mobileSettings": {
       "enableLightningOnMobile": true
