@@ -2,7 +2,7 @@
   "orgName": "Salesforce Mobile Demo",
   "edition": "Developer",
   "hasSampleData": true,
-  "features": [],
+  "features": ["MobileSecurity"],
   "settings": {
     "mobileSettings": {
       "enableLightningOnMobile": true
