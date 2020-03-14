@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Record Map</masterLabel>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="streetField" label="Street Field" description="Example: Account.ShippingStreet" required="true" type="String" /> 
+            <property name="cityField" label="City Field" description="Example: Account.ShippingCity" required="true" type="String" />
+            <property name="stateField" label="State Field" description="Example: Account.ShippingState" required="true" type="String" /> 
+            <property name="postalCodeField" label="Postal Code Field" description="Example: Account.ShippingPostalCode" required="true" type="String" /> 
+            <property name="countryField" label="Country Field" description="Example: Account.ShippingCountry" required="true" type="String" /> 
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

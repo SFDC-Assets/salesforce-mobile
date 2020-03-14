@@ -4,9 +4,6 @@
   "hasSampleData": true,
   "features": ["MobileSecurity"],
   "settings": {
-    "mobileSettings": {
-      "enableLightningOnMobile": true
-    },
     "pathAssistantSettings": {
       "pathAssistantEnabled": true
     }    
