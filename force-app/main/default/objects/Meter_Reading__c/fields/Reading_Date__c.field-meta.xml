@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Used__c</fullName>
+    <fullName>Reading_Date__c</fullName>
     <externalId>false</externalId>
-    <formula>New_Reading__c -  Last_Reading__c</formula>
+    <formula>TODAY() - Days_Ago__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Used</label>
-    <precision>18</precision>
+    <label>Reading Date</label>
     <required>false</required>
-    <scale>2</scale>
     <trackTrending>false</trackTrending>
-    <type>Number</type>
-    <unique>false</unique>
+    <type>Date</type>
 </CustomField>

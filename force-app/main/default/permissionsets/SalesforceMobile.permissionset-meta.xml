@@ -37,13 +37,8 @@
         <visible>true</visible>
     </applicationVisibilities>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Meter_Reading__c.Last_Reading__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Meter_Reading__c.New_Reading__c</field>
+        <editable>false</editable>
+        <field>Meter_Reading__c.Reading_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

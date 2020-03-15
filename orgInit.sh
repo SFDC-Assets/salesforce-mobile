@@ -4,5 +4,6 @@ sfdx force:source:push
 sfdx force:user:permset:assign -n SalesforceMobile
 sfdx shane:user:password:set -g User -l User -p salesforce1
 #sfdx automig:dump --objects Task --outputdir ./data
-sfdx automig:load --inputdir ./data
 sfdx force:org:open
+sfdx automig:load --inputdir ./data
+sfdx force:apex:execute --apexcodefile ./scripts/generateMeterReadings.apex
