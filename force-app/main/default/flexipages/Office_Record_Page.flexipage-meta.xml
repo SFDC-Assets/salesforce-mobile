@@ -184,7 +184,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>reportName</name>
-                <value>New_Meter_Readings_with_Store_Report_pVg</value>
+                <value>New_Meter_Readings_with_Office_Report_pVg</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>showRefreshButton</name>
@@ -203,7 +203,7 @@
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Store Record Page</masterLabel>
+    <masterLabel>Office Record Page</masterLabel>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
     <sobjectType>Office__c</sobjectType>
     <template>
