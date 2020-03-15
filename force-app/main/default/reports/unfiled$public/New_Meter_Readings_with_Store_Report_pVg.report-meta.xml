@@ -42,7 +42,7 @@
         <name>co</name>
         <value>1</value>
     </params>
-    <reportType>CustomEntity$Meter_Reading__c@Meter_Reading__c.Store__c</reportType>
+    <reportType>CustomEntity$Meter_Reading__c@Meter_Reading__c.Office__c</reportType>
     <scope>user</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>

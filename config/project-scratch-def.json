@@ -2,7 +2,7 @@
   "orgName": "Salesforce Mobile Demo",
   "edition": "Developer",
   "hasSampleData": true,
-  "features": ["MobileSecurity"],
+  "features": ["EinsteinAssistant", "MobileSecurity"],
   "settings": {
     "pathAssistantSettings": {
       "pathAssistantEnabled": true

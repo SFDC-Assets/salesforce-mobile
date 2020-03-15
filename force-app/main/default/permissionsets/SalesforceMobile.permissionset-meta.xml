@@ -25,6 +25,10 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Operations</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Security</application>
         <visible>true</visible>
     </applicationVisibilities>
@@ -43,107 +47,107 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Meter_Reading__c.Store__c</field>
+        <field>Meter_Reading__c.Office__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Approved__c</field>
+        <field>Office__c.Approved__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Budget__c</field>
+        <field>Office__c.Budget__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Building_Contractor__c</field>
+        <field>Office__c.Building_Contractor__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Building_Insurance__c</field>
+        <field>Office__c.Building_Insurance__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.City__c</field>
+        <field>Office__c.City__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Completed_Date__c</field>
+        <field>Office__c.Completed_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Construction_Cost__c</field>
+        <field>Office__c.Construction_Cost__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Contractor__c</field>
+        <field>Office__c.Contractor__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.EIN__c</field>
+        <field>Office__c.EIN__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Inspected__c</field>
+        <field>Office__c.Inspected__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Lease_Signed__c</field>
+        <field>Office__c.Lease_Signed__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Permit_ID__c</field>
+        <field>Office__c.Permit_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.PostalCode__c</field>
+        <field>Office__c.PostalCode__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Project_Lead__c</field>
+        <field>Office__c.Project_Lead__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Project_Type__c</field>
+        <field>Office__c.Project_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Start_Date__c</field>
+        <field>Office__c.Start_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.State__c</field>
+        <field>Office__c.State__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Status__c</field>
+        <field>Office__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Street__c</field>
+        <field>Office__c.Street__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Store__c.Tax_ID__c</field>
+        <field>Office__c.Tax_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -283,7 +287,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Store__c</object>
+        <object>Office__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -300,13 +304,17 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
-        <tab>Store__c</tab>
+        <tab>Office__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
         <tab>Vehicle__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EinsteinAssistantUser</name>
+    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>MobileAppSecurity</name>

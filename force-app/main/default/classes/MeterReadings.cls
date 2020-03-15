@@ -1,14 +1,19 @@
 public with sharing class MeterReadings {
 
     public static void GenerateReadingsForAllStores() {
-        List<Store__c> stores = [SELECT Id FROM Store__c];
-        for (Store__c store : stores) {
-            GenerateReadings(store.Id);
+        List<Office__c> offices = [SELECT Id FROM Office__c];
+        for (Office__c office : offices) {
+            GenerateReadings(office.Id);
         }
     }
 
+    public static void ResetReadingsForAllStores() {
+        List<Meter_Reading__c> readings = [SELECT Id FROM Meter_Reading__c];
+        delete readings;
+    }
+
     public static void GenerateReadings(string recordId) {
-        Integer numberOfReadingsToGenerate = 30;
+        Integer numberOfReadingsToGenerate = 15;
         Integer currentDay = numberOfReadingsToGenerate;
         List<Meter_Reading__c> readings = new List<Meter_Reading__c>();
         Meter_Reading__c reading;
@@ -20,16 +25,16 @@ public with sharing class MeterReadings {
     }
 
     public static Meter_Reading__c GenerateReading(string recordId, integer daysAgo) {
-        Integer baseUsage = 1000;
-        Integer peakUsage = 2000;
-        Integer maxBonus = 500;
+        Integer bonus =  daysAgo * 20;
+        Integer baseUsage = 300 + bonus;
+        Integer peakUsage = 400 + bonus;
 
         Integer energyUsage = randomInt(baseUsage, peakUsage);
-        Integer bonus =  maxBonus - Math.round(energyUsage * (daysAgo / 100));
+        
         energyUsage = energyUsage - bonus;
 
         Meter_Reading__c reading = new Meter_Reading__c();
-        reading.Store__c = recordId;
+        reading.Office__c = recordId;
         reading.Days_Ago__c = daysAgo;
         reading.Energy_Used__c = energyUsage;
         System.System.debug('Here');

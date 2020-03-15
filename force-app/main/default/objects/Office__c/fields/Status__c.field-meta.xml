@@ -16,11 +16,6 @@
                 <label>Research</label>
             </value>
             <value>
-                <fullName>Scouting</fullName>
-                <default>false</default>
-                <label>Scouting</label>
-            </value>
-            <value>
                 <fullName>Design</fullName>
                 <default>false</default>
                 <label>Design</label>
@@ -34,6 +29,11 @@
                 <fullName>Opening</fullName>
                 <default>false</default>
                 <label>Opening</label>
+            </value>
+            <value>
+                <fullName>Operational</fullName>
+                <default>false</default>
+                <label>Operational</label>
             </value>
         </valueSetDefinition>
     </valueSet>

@@ -153,23 +153,23 @@
         <componentInstances>
             <componentInstanceProperties>
                 <name>cityField</name>
-                <value>Store__c.City__c</value>
+                <value>Office__c.City__c</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>countryField</name>
-                <value>Store__c.Country__c</value>
+                <value>Office__c.Country__c</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>postalCodeField</name>
-                <value>Store__c.PostalCode__c</value>
+                <value>Office__c.PostalCode__c</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>stateField</name>
-                <value>Store__c.State__c</value>
+                <value>Office__c.State__c</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>streetField</name>
-                <value>Store__c.Street__c</value>
+                <value>Office__c.Street__c</value>
             </componentInstanceProperties>
             <componentName>recordMap</componentName>
         </componentInstances>
@@ -205,7 +205,7 @@
     </flexiPageRegions>
     <masterLabel>Store Record Page</masterLabel>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
-    <sobjectType>Store__c</sobjectType>
+    <sobjectType>Office__c</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>
     </template>

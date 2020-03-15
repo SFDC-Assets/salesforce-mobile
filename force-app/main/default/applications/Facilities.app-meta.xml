@@ -14,9 +14,10 @@
     <label>Facilities</label>
     <navType>Standard</navType>
     <tabs>standard-Today</tabs>
-    <tabs>Store__c</tabs>
+    <tabs>Office__c</tabs>
     <tabs>standard-File</tabs>
     <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-ServiceAppointment</tabs>
     <tabs>standard-ServiceCrew</tabs>
     <tabs>standard-ServiceCrewMember</tabs>
