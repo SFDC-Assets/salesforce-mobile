@@ -8,11 +8,11 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightning__RecordPage">
-            <property name="streetField" label="Street Field" description="Example: Account.ShippingStreet" required="true" type="String" /> 
-            <property name="cityField" label="City Field" description="Example: Account.ShippingCity" required="true" type="String" />
-            <property name="stateField" label="State Field" description="Example: Account.ShippingState" required="true" type="String" /> 
-            <property name="postalCodeField" label="Postal Code Field" description="Example: Account.ShippingPostalCode" required="true" type="String" /> 
-            <property name="countryField" label="Country Field" description="Example: Account.ShippingCountry" required="true" type="String" />
+            <property name="streetField" label="Street Field" description="Example: Account.ShippingStreet" default="Office__c.Street__c" required="true" type="String" /> 
+            <property name="cityField" label="City Field" description="Example: Account.ShippingCity" default="Office__c.City__c" required="true" type="String" />
+            <property name="stateField" label="State Field" description="Example: Account.ShippingState" default="Office__c.State__c" required="true" type="String" /> 
+            <property name="postalCodeField" label="Postal Code Field" description="Example: Account.ShippingPostalCode" default="Office__c.PostalCode__c" required="true" type="String" /> 
+            <property name="countryField" label="Country Field" description="Example: Account.ShippingCountry" required="false" type="String" />
             <supportedFormFactors>
                 <supportedFormFactor type="Small" />
                 <supportedFormFactor type="Large" />

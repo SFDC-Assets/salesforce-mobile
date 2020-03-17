@@ -152,29 +152,6 @@
     <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
-                <name>cityField</name>
-                <value>Office__c.City__c</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>countryField</name>
-                <value>Office__c.Country__c</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>postalCodeField</name>
-                <value>Office__c.PostalCode__c</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>stateField</name>
-                <value>Office__c.State__c</value>
-            </componentInstanceProperties>
-            <componentInstanceProperties>
-                <name>streetField</name>
-                <value>Office__c.Street__c</value>
-            </componentInstanceProperties>
-            <componentName>recordMap</componentName>
-        </componentInstances>
-        <componentInstances>
-            <componentInstanceProperties>
                 <name>cacheAge</name>
                 <value>1440</value>
             </componentInstanceProperties>

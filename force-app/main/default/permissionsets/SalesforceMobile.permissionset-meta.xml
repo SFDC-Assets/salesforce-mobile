@@ -311,12 +311,4 @@
         <tab>Vehicle__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EinsteinAssistantUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>MobileAppSecurity</name>
-    </userPermissions>
 </PermissionSet>
